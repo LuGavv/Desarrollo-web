@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecos del Futuro</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Ecos del Futuro</h1>
+    <p>Una historia de exploración, inteligencia artificial y mundos más allá de las estrellas.</p>
+    <nav>
+      <button class="nav-btn" data-target="astra">Astra-One</button>
+      <button class="nav-btn" data-target="nuvem">Nuvem City</button>
+      <button class="nav-btn" data-target="eclipse">Eclipse Robot</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="astra" class="section active">
+      <h2>Astra-One</h2>
+      <model-viewer src="models/Nave.glb" camera-controls auto-rotate></model-viewer>
+      <p>La nave <strong>Astra-One</strong> fue diseñada para cruzar los confines de la galaxia. Con un sistema de energía de fusión cuántica, puede viajar entre estrellas en cuestión de días. Su casco, hecho de metal vivo, se repara solo ante cualquier daño.</p>
+    </section>
+
+    <section id="nuvem" class="section">
+      <h2>Nuvem City</h2>
+      <model-viewer src="models/cybercity.glb" camera-controls auto-rotate></model-viewer>
+      <p><strong>Nuvem City</strong> es una metrópoli flotante que sobrevuela las nubes de un planeta acuático. Su energía proviene de los vientos iónicos y está gobernada por una inteligencia artificial benevolente llamada Lúmen.</p>
+    </section>
+
+<section id="eclipse" class="section">
+  <h2>Eclipse Robot</h2>
+  <model-viewer 
+    src="models/robot.glb"
+    camera-controls 
+    auto-rotate 
+    autoplay 
+    animation-name="Animation"
+    ar
+    shadow-intensity="1"
+    exposure="1.2"
+    style="width:80%; height:400px; border-radius:12px; box-shadow:0 0 25px #00eaff77;">
+  </model-viewer>
+
+  <p>
+    El <strong>Eclipse Robot</strong> es el guardián de los antiguos templos cósmicos. 
+    Fue creado por los ancestros de Nuvem City para proteger los secretos del tiempo. 
+    Su núcleo está impulsado por una estrella en miniatura.
+  </p>
+</section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Ecos del Futuro — Creado por Valentina Sarria y Luna Gaviria</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

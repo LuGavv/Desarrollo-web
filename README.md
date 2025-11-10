@@ -45,11 +45,11 @@ npm install
 
 Inicia la aplicación:
 
-npm start
+npm run dev
 
 
-Abre tu navegador en http://localhost:3000
- 🚀
+o abre tu navegador en http://localhost:5173/
+ 
 
  
 

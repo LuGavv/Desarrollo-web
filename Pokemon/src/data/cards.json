@@ -1,0 +1,47 @@
+[
+  {
+    "id": "p1",
+    "name": "Pikachu",
+    "image": "/assets/pikachu.png",
+    "model": "/models/pikachu.glb",
+    "state": "disponible",
+    "sound": "/sounds/select.mp3",
+    "description": "Pokémon tipo eléctrico. Almacena electricidad en sus mejillas."
+  },
+  {
+    "id": "p2",
+    "name": "Charizard",
+    "image": "/assets/charizard.png",
+    "model": "/models/charizard.glb",
+    "state": "disponible",
+    "sound": "/sounds/select.mp3",
+    "description": "Pokémon tipo fuego/volador. Escupe llamas que pueden derretir cualquier cosa."
+  },
+  {
+    "id": "p3",
+    "name": "Bulbasaur",
+    "image": "/assets/bulbasaur.png",
+    "model": "/models/bulbasaur.glb",
+    "state": "disponible",
+    "sound": "/sounds/select.mp3",
+    "description": "Pokémon tipo planta/veneno. Su bulbo crece al absorber energía solar."
+  },
+  {
+    "id": "p4",
+    "name": "Squirtle",
+    "image": "/assets/squirtle.png",
+    "model": "/models/squirtle.glb",
+    "state": "disponible",
+    "sound": "/sounds/select.mp3",
+    "description": "Pokémon tipo agua. Dispara agua a presión por la boca."
+  },
+  {
+    "id": "p5",
+    "name": "Gengar",
+    "image": "/assets/gengar.png",
+    "model": "/models/gengar.glb",
+    "state": "disponible",
+    "sound": "/sounds/select.mp3",
+    "description": "Pokémon tipo fantasma. Su risa siniestra enfría el aire."
+  }
+]
